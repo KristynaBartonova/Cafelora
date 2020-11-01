@@ -244,6 +244,7 @@ nav a:hover {
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+  display:flex;
 }
 
 .contacts {
@@ -300,3 +301,11 @@ nav a:hover {
     text-align: center;
   }
 }
+
+.textgalerie {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+}
+
