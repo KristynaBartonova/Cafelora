@@ -83,9 +83,9 @@ nav a {
 
   margin: 1rem;
 
-  color: #ddd;
+ 
   border-bottom: 1px solid transparent;
-
+  color: #ddd;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -112,7 +112,9 @@ nav a:hover {
     cursor: pointer;
   }
 } 
-
+@media only screen and (min-width: 500px) {
+  .nav-btn {
+    display:none;}}
 
 .nav-btn:focus {
   outline: none;
